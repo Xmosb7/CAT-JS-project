@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+
+<!--
+<html>
+    <head>
+        <title>first login try</title>
+    </head>
+    
+    <body>
+        <h1>Login page</h1>
+        <h3>test</h3>
+        <p> Lorem ffffffvsd      sdvs <br>    vsvsdv v s vsdvdv dsv sd vsd v d sv sd v  </p>
+        <p> Lorem ffffffvsd     <strong>sddsvsdv</strong> sdvs    vsvsdv v s vsdvdv dsv sd vsd v d sv sd v  </p>
+        <p> Lorem ffffffvsd     <em>sdvcsdvsd</em> sdvs    vsvsdv v s vsdvdv dsv sd vsd v d sv sd v  </p>
+        <p> Lorem ffffffvsd      <a href="http://google.com/" target="_blank" > <strong>try it</strong> </a> sdvs <br>    vsvsdv v s vsdvdv dsv sd vsd v d sv sd v  </p>
+        
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+            <li>List item 5</li>
+        </ul>
+        <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+            <li>List item 5</li>
+        </ol>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>email</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>mahmoud</td>
+                    <td>mahmoud@gmail.com</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>maoud</td>
+                    <td>maoud@gmail.com</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>oud</td>
+                    <td>ahmoud@gmail.com</td>
+                    <td>15</td>
+                </tr>     
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <form action="login.php" method="post">
+            <div>
+                <label>Name</label>
+                <input type="text" name="name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>password</label>
+                <input type="password" name="pass">
+            </div>
+            <br>
+            <div>
+                <label>gender</label>
+                <select name="gender">
+                    <option name="male">Male</option>
+                    <option name="female">female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        
+        <div style="margin-top: 500px"></div>
+        
+        <script src="main.js"></script>
+    
+    
+    </body>
+
+</html>
+-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <title>Login Page</title>
+    </head>
+
+    <body>
+        <header>
+           <h1><strong>Login</strong></h1><br>
+        </header>
+
+        <form id="form" >
+            <h2>Add New Employee</h2>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="text" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="Mobile">Mobile:</label>
+                <input type="text" id="mobile">
+            </div>
+            <br>
+            <input class="btn" type="submit" vlaue="Store this data" id="submit_btn">
+            <input type="hidden" id="edit_btn" value = "0">
+        </form>
+        <br>
+        
+        <table id="example">
+            <thead>
+                <tr>
+                    <th>Name </th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Action</th>
+                </tr>    
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div style="margin-top: 200px;"></div>
+       
+        <script src="script.js"></script>   
+    </body>
+</html>
